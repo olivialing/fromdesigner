@@ -1,4 +1,6 @@
-  
+# My Article
+---
+Back to [fromdesigner](README.md)
 Some thoughts on bridging the gap in problem-solving 
 
 World Tracing borrows a ray-centric formulation to invert the image formation process, transforming pixel observations into structured geometric inference along camera rays. It is primarily designed for single-view 2D-to-3D reconstruction, a fundamentally underconstrained problem in which large portions of scene geometry are not directly observable and must be inferred through learned priors. As a result, performance is heavily dependent on the quality and completeness of input observations, with degradation arising from factors such as overexposure, missing regions, or other forms of corrupted visual evidence. In this setting, controllability and reliability of prior-induced bias become critical concerns, particularly in real-world applications where reconstruction errors can propagate into downstream tasks.
